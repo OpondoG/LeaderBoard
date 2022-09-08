@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src='https://kit.fontawesome.com/6eed52bc92.js' crossorigin='anonymous'></script>
+    <title>Leaderboard</title>
+</head>
+
+<body>
+    <header>
+        <h1>Leaderboard</h1>
+    </header>
+    <main>
+        <section class="left-content">
+            <div class="left-title">
+                <h3>Recent Scores</h3>
+                <button type="reset" class="refresh-btn">Refresh</button>
+            </div>
+            <ul class="list">
+                <div class="items">
+                    <p>Dave</p>
+                    <p>:</p>
+                    <p>10</p>
+                </div>
+                <div class="items">
+                    <p>Tony</p>
+                    <p>:</p>
+                    <p>10</p>
+                </div>
+                <div class="items">
+                    <p>Max</p>
+                    <p>:</p>
+                    <p>10</p>
+                </div>
+                <div class="items">
+                    <p>Rahem</p>
+                    <p>:</p>
+                    <p>10</p>
+                </div>
+                <div class="items">
+                    <p>Nana</p>
+                    <p>:</p>
+                    <p>10</p>
+                </div>
+                <div class="items">
+                    <p>Brian</p>
+                    <p>:</p>
+                    <p>10</p>
+                </div>
+                <div class="items">
+                    <p>Carl</p>
+                    <p>:</p>
+                    <p>10</p>
+                </div>
+                <div class="items">
+                    <p>Vesh</p>
+                    <p>:</p>
+                    <p>10</p>
+                </div>
+                <div class="items">
+                    <p>Roba</p>
+                    <p>:</p>
+                    <p>10</p>
+                </div>
+                <div class="items">
+                    <p>Carol</p>
+                    <p>:</p>
+                    <p>10</p>
+                </div>
+                <div class="items">
+                    <p>Khaled</p>
+                    <p>:</p>
+                    <p>10</p>
+                </div>
+            </ul>
+        </section>
+        <section class="right-content">
+            <h3>Add your score</h3>
+            <form id="user-form" action="submit">
+                <input type="text" id="name" name="name" placeholder="Your name" required />
+                <input type="number" id="score" name="score" placeholder="Your score" required />
+                <button class="add-btn" type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <script type="module" src="index.js"></script>
+</body>
+
+</html>
