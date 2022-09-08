@@ -12,7 +12,7 @@ learn how to use proper ES6 syntax,use ES6 modules to write modular JavaScript a
 # Live Demo :)
 
 
-[Live Demo Link]()
+[Live Demo Link](https://opondog.github.io/Leaderboard/dist/)
 
 # Authors
 
