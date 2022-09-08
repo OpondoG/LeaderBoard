@@ -36,3 +36,5 @@ Give a ⭐️ if you like this project!
 - Hat tip to anyone whose code was used
 - Inspiration
 - etc
+# 📝 License
+This project is [MIT](https://github.com/OpondoG/Leaderboard/blob/stup/MIT.md) licensed.
