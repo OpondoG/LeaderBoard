@@ -6,7 +6,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
     <script src='https://kit.fontawesome.com/6eed52bc92.js' crossorigin='anonymous'></script>
     <title>Leaderboard</title>
 <script defer src="runtime.bundle.js"></script><script defer src="index.bundle.js"></script></head>
@@ -19,76 +18,21 @@
         <section class="left-content">
             <div class="left-title">
                 <h3>Recent Scores</h3>
-                <button type="reset" class="refresh-btn">Refresh</button>
+                <button id="refresh_btn" class="refresh-btn" type="reset">Refresh</button>
             </div>
-            <div class="list">
-                <div class="items">
-                    <p>Dave</p>
-                    <p>:</p>
-                    <p>10</p>
-                </div>
-                <div class="items">
-                    <p>Tony</p>
-                    <p>:</p>
-                    <p>10</p>
-                </div>
-                <div class="items">
-                    <p>Max</p>
-                    <p>:</p>
-                    <p>10</p>
-                </div>
-                <div class="items">
-                    <p>Rahem</p>
-                    <p>:</p>
-                    <p>10</p>
-                </div>
-                <div class="items">
-                    <p>Nana</p>
-                    <p>:</p>
-                    <p>10</p>
-                </div>
-                <div class="items">
-                    <p>Brian</p>
-                    <p>:</p>
-                    <p>10</p>
-                </div>
-                <div class="items">
-                    <p>Carl</p>
-                    <p>:</p>
-                    <p>10</p>
-                </div>
-                <div class="items">
-                    <p>Vesh</p>
-                    <p>:</p>
-                    <p>10</p>
-                </div>
-                <div class="items">
-                    <p>Roba</p>
-                    <p>:</p>
-                    <p>10</p>
-                </div>
-                <div class="items">
-                    <p>Carol</p>
-                    <p>:</p>
-                    <p>10</p>
-                </div>
-                <div class="items">
-                    <p>Khaled</p>
-                    <p>:</p>
-                    <p>10</p>
-                </div>
+            <div id="scores_list" class=" list ">
+                <!-- List items will be generated dynamically via JavaScript -->
             </div>
         </section>
         <section class="right-content">
             <h3>Add your score</h3>
-            <form id="user-form" action="submit">
-                <input type="text" id="name" name="name" placeholder="Your name" required />
-                <input type="number" id="score" name="score" placeholder="Your score" required />
-                <button class="add-btn" type="submit">Submit</button>
+            <form id="user-form" action="#">
+                <input type="text" id="user_field" name="user-name" placeholder="Your name" required />
+                <input type="number" id="score_field" name="score" placeholder="Your score" required />
             </form>
+            <button id="submit_btn" class="add-btn" type="submit">Submit</button>
         </section>
     </main>
-
 </body>
 
 </html>
